@@ -1,0 +1,9 @@
+conda env create -f environment.yml
+conda activate env
+pip install .
+
+
+
+Then in jupyter notebook kernels installation
+
+python -m ipykernel install --user --name env --display-name "env (python_3.6)"
